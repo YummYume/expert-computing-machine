@@ -1,6 +1,6 @@
 name: Code testing
 
-on: [pull_request]
+on: [push, pull_request]
 
 jobs:
   vitest:
