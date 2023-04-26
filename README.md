@@ -6,7 +6,7 @@ Create your best tests.
 
 Run `make start` and go to [http://localhost:51204/\_\_vitest\_\_/](http://localhost:51204/\_\_vitest\_\_/) (the `/` at the end is mandatory).
 
-If you can't use make: run the following :
+If you can't use make, run the following :
 
 - `docker compose build --force-rm`
 - `docker compose up -d --remove-orphans --force-recreate`
