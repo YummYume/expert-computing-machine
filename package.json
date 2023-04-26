@@ -1,0 +1,24 @@
+{
+  "name": "todo-app-test",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "NODE_TLS_REJECT_UNAUTHORIZED='0' vite dev --host",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "vitest run --coverage",
+    "test:watch": "vitest -w",
+    "test:ui": "vitest --ui -w --api.host 0.0.0.0 --api.port 51204 --no-open"
+  },
+  "devDependencies": {
+    "@vitest/coverage-c8": "^0.30.1",
+    "@vitest/ui": "^0.30.1",
+    "typescript": "^5.0.2",
+    "vite": "^4.3.0",
+    "vitest": "^0.30.1"
+  },
+  "dependencies": {
+    "zod": "^3.21.4"
+  }
+}
